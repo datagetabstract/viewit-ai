@@ -182,8 +182,8 @@ with st.sidebar:
     # Description
     st.markdown("""
                 # About
-                Introducing ViewIt.AI, a Real Estate Chatbot Assistant will help 
-                you out with all your real estate queries.
+                Introducing ViewIt.AI, a Real Estate Chatbot Assistant that can 
+                assist you with all your real estate queries 🤖
                 
 
                 # Data
