@@ -10,6 +10,7 @@ proto-plus==1.22.2
 protobuf==3.20.0
 pydantic
 pyowm
+pysqlite3-binary
 streamlit-authenticator
 streamlit-feedback==0.1.2
 tabulate

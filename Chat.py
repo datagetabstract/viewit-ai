@@ -33,6 +33,11 @@ except Exception as e:
     st.toast("Psst. Try refreshing the page.", icon="👀")
 
 
+__import__('pysqlite3')
+import sys
+
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 @st.cache_data(show_spinner=False)
 def init_trubrics(project='default', email=st.secrets.TRUBRICS_EMAIL, password=st.secrets.TRUBRICS_PASSWORD):
     """Initialize Trubrics FeedbackCollector"""
