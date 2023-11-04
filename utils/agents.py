@@ -61,7 +61,7 @@ def load_rag(filepath, llm):
     splits = text_splitter.split_documents(loader.load())
 
     # Embed and store splits
-    vectorstore = Chroma.from_documents(documents=splits, embedding=OpenAIEmbeddings())
+    vectorstore = Chroma.from_documents(documents=splits, embedding=OpenAIEmbeddings(openai_api_key=st.secrets["api_key"]))
     retriever = vectorstore.as_retriever()
 
     # Prompt
