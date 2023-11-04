@@ -3,14 +3,20 @@ from utils.prompts import *
 import pandas as pd
 import streamlit as st
 
+from langchain import hub
+from langchain.agents import Tool
+from langchain.vectorstores import Chroma
 from langchain.chains.llm import LLMChain
 from langchain.tools import GooglePlacesTool
-# from langchain.chat_models import ChatOpenAI
-from langchain.memory import ConversationBufferMemory
+from langchain.chat_models import ChatOpenAI
+from langchain.document_loaders import TextLoader
+from langchain.embeddings import OpenAIEmbeddings
 # from langchain.memory import ReadOnlySharedMemory
-from langchain.tools.python.tool import PythonAstREPLTool
+from langchain.memory import ConversationBufferMemory
+from langchain.schema.runnable import RunnablePassthrough
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.agents import ZeroShotAgent, AgentExecutor, load_tools
-# from langchain.agents import Tool
+from langchain_experimental.tools.python.tool import PythonAstREPLTool
 # from langchain.schema.messages import HumanMessage, AIMessage
 from langchain.memory.chat_message_histories import StreamlitChatMessageHistory
 
@@ -42,6 +48,30 @@ prefix_map = {
 @st.cache_data(show_spinner=False)
 def df_prefix(filename):
     return load_data(filename), prefix_map[filename]
+
+
+@st.cache_resource(show_spinner=False)
+def load_rag(filepath, llm):
+    loader = TextLoader(
+    filepath, 'utf-8', autodetect_encoding=True
+    )
+
+    # Split documents
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)
+    splits = text_splitter.split_documents(loader.load())
+
+    # Embed and store splits
+    vectorstore = Chroma.from_documents(documents=splits, embedding=OpenAIEmbeddings())
+    retriever = vectorstore.as_retriever()
+
+    # Prompt
+    # https://smith.langchain.com/hub/rlm/rag-prompt
+    rag_prompt = hub.pull("rlm/rag-prompt")
+
+    # RAG chain
+    rag_chain = {"context": retriever, "question": RunnablePassthrough()} | rag_prompt | llm
+
+    return rag_chain
 
 
 # @st.cache_resource
@@ -87,7 +117,18 @@ def create_pandas_dataframe_agent(
         "When using this tool, sometimes output is abbreviated - "
         "import pandas and run `pandas.set_option('display.max_columns',None)` to make sure it does not look abbreviated before using it in your answer."
     )
-    tools = [python_repl_ast, GooglePlacesTool()] + load_tools(["openweathermap-api"], llm)
+
+    rag_agent = load_rag('data/legal.txt', ChatOpenAI(verbose=True, model='gpt-3.5-turbo', temperature=0.2))
+    
+    rag_tool = Tool(
+        name="Legal Agent",
+        func=rag_agent.invoke,
+        description="This is the agent that you have access to, " \
+" for answering FAQs and legal related questions. " \
+"Input should be the original question that you recieved."
+    )
+
+    tools = [python_repl_ast, GooglePlacesTool(), rag_tool] + load_tools(["openweathermap-api"], llm)
 
     prompt = ZeroShotAgent.create_prompt(
         tools=tools,

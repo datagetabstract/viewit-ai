@@ -1,0 +1,96 @@
+1. Rules and Regulations
+SDO reserves the right, at any time, to revise these terms of use and any other information contained in this Platform by updating this posting without notice. SDO may also make improvements to the Platform or services it provides at any time at its sole discretion. In the case of any violation of these rules and regulations, SDO reserves the right to seek all remedies available by law. These rules and regulations apply to all visits to SDO, both now and in the future.
+
+
+2. Limited License
+SDO authorizes you to copy materials published by SDO solely for non-commercial, personal use only. You agree that any copy of these materials which you make shall retain all copyright and other proprietary notices in the same form and manner as on the original. Except as specified above, nothing contained here in shall be construed as conferring by implication, or otherwise any license or copyright of SDO or any third party. All contents on this Platform are protected by copyright, except as specifically permitted herein, no portion of this Platform may be reproduced in any form, or by any means, without prior written permission from SDO. Visitors or users are not permitted to modify, distribute, publish or create derivative works for any public or commercial purposes.
+
+
+3. Information Collection
+SDO respects your privacy and is committed to protecting the personal information you share with us. However, please note when you register for certain services, we will ask you to provide personal information, which may be combined with information from other services or departments. We use technologies, such as cookies to keep track of your interaction to offer a personalized experience.
+
+
+4. General
+This Platform contains proprietary notices and copyright information, the terms of which must be observed and followed. SDO grants you non-exclusive, non-transferable, limited permission. This permission is conditioned on your not modifying the content displayed on this Platform, your keeping intact all copyright, and other proprietary notices set forth in this Platform. Your failure to comply with the terms, conditions, and notices on this Platform will result in automatic termination of any rights granted to you, without prior notice. Except for the limited permission in the preceding paragraph, SDO does not grant you any express or implied rights or licenses. You may not mirror any of the content from this Platform on another web site or in any other media.
+
+
+5. Disclaimers
+Information on this Platform is not promised or guaranteed to be correct, current, complete and subject to change without prior notice. This this Platform may contain technical inaccuracies or typographical errors. SDO expressly disclaims responsibility for updating this Platform to keep information current or to ensure the accuracy or completeness of any posted information and provides no assurances that any reported problems will be resolved.
+
+
+6. Confidential Information
+SDO does not want to receive confidential or proprietary information from you through our Platform. Any information or material sent to SDO will be deemed as non-confidential. By doing so, you grant SDO unrestricted, irrevocable license to copy, reproduce, publish, upload, post, modify, and otherwise freely use, those materials or information. You also agree that SDO is free to use any ideas, concepts, know-how that you send.
+
+
+7. Availability
+SDO may occasionally publish on the internet, social media, apps, newsletters, press releases, external communication may contain references to SDO programs and services that are not available at that point in time. Such references do not imply that SDO intends to announce or make available such programs, or services.
+
+
+8. Third party content
+This Platform may provide links or references to non-SDO web sites, other government departments, partners, media, vendors and resources of third parties. SDO makes no representations, warranties, or other commitments whatsoever about any non-SDO web sites or third-party resources that may be referenced, accessible from, or linked to any SDO site. A link to a non-SDO web site does not mean that SDO endorses the content or use of such web site or its owner. In addition, SDO is not a party to or responsible for any transactions you may enter into with third parties, even if you learn of such parties (or use a link to such parties) from an SDO Platform. Accordingly, you acknowledge and agree that SDO is not responsible for the availability of such external sites or resources, and is not responsible or liable for any content, services, products, or other materials on or available from those sites or resources. When you access a non-SDO web site, even one that may contain the SDO-logo, it is independent from SDO. It is your sole responsibility to take precautions to protect your information as you deem appropriate.
+
+
+9. Linking to this Platform
+All links to this Platform must be approved in writing by SDO, except that SDO consents to links in which the link and the pages that are activated by the link do not: (a) create frames around any page on this Platform or use other techniques that alter in any way the visual presentation of any content within this Platform; (b) misrepresent your relationship with SDO; (c) imply that SDO approves or endorses you, your web site, service or product offerings; and (d) present false or misleading impressions about SDO or otherwise damage the goodwill associated with SDO. You agree that SDO may at any time, terminate permission to link to this Platform. In such event, you agree to immediately remove all links to this Platform.
+
+
+10. Translations
+Certain text in this Platform may be made available in multiple languages. These translations are provided as a convenience to you. SDO makes no representations for its accuracy, completeness.
+
+
+11. Disclaimer of Warranty
+Use of this Platform is at your sole risk. All materials, information, and services are provided "as is," with no warranties or guarantees whatsoever. SDO expressly disclaims to the fullest extent permitted by law all express, implied, statutory, and other warranties, guarantees, or representations, including, without limitation, the warranties, fitness for a particular purpose, and non-infringement of proprietary and intellectual property rights. Without limitation, SDO makes no warranty or guarantee that this Platform will be uninterrupted, timely, secure, or error-free. You understand and agree that if you download or otherwise obtain materials, information, software, or services, you do so at your own discretion and risk and that you will be solely responsible for any damages that may result, including loss of data or damage to your computer system.
+
+
+12. Limitation of Liability
+In no event will SDO be liable to any party for any direct, indirect, incidental, special, exemplary or consequential damages of any type whatsoever related to or arising from use of this Platform, or of any site or resource linked to, referenced, or accessed through this Platform, or for the use or downloading of, or access to, any materials, information, services, including, without limitation, any business interruption, loss of data, even if SDO is expressly advised of the possibility of such damages. This exclusion and waiver of liability applies to all causes of action, whether based on contract, warranty, tort. In the event of any conflict, such additional or different terms, conditions, and notices will prevail over these terms of use. Please see the applicable agreement or notice.
+
+
+13. Personal and non-commercial use limitation
+Unless otherwise specified, the services are for your personal and non-commercial use. You may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products or services obtained from the services.
+
+
+14. Usage Permissions
+You can use documents (such as datasheets, forms) provided that
+
+the SDO copyright notice appears in all copies
+use of such documents from the services is for informational, non-commercial or personal use only and will not be copied or posted in any media, and
+no major modifications are made.
+Documents specified above do not include the design or layout of the SDO Platform or any other SDO owned, operated, or controlled site. Elements of SDO Platform (logo, text, images, documents etc) are protected by law and may not be copied or imitated in whole or in part, unless expressly permitted by SDO.
+
+SDO and/or its respective suppliers make no representations about the suitability of the information contained in the documents and related graphics published as part of the services for any purpose. All such documents and related graphics are provided "as is" without warranty of any kind.
+
+The content published could include technical inaccuracies or typographical errors. Changes are periodically added to the information herein. SDO and/or its respective suppliers may make improvements and/or changes in the product(s) and/or the program(s) described herein at any time.
+
+
+15. Member account, password, and security
+If any of the services requires you to open an account, you must complete the registration process by providing us with accurate information. You are responsible for maintaining the confidentiality of your account and all activities that occur under your account. SDO will not be liable for any loss that you may incur as a result of someone else using your password or account, either with or without your knowledge. You could be held liable for losses incurred by SDO or another party due to someone else using your account or password.
+
+
+16. Unlawful or prohibited use
+You will not use the services for unlawful purposes or prohibited by these terms, conditions, and notices that could damage, disable, overburden any SDO server, or the network(s) connected to any SDO server, or interfere with any other party's use of any services. You will not gain unauthorized access to any services, other accounts, networks connected to any SDO server, through hacking, password mining or any other means.
+
+
+17. Use of services
+The services may contain social media services, forums, e-mail, commenting tools, photo albums, designed to enable users to communicate with each other. By way of example, and not as a limitation, you will not:
+
+Use the communication services for surveys, contests, chain letters, data mining, spamming or phishing.
+Defame, abuse, harass, stalk, threaten or violate the legal rights of others
+Publish, distribute inappropriate, anti-government, defamatory, unlawful information.
+Upload images, software, copyrighted material, viruses, Trojan horses, worms, corrupted files.
+Restrict or inhibit any other user from using the communication services.
+Violate any code of conduct or guidelines applicable for any particular communication service.
+Create a false identity for the purpose of misleading others.
+SDO has no obligation to monitor the communication services. However, SDO reserves the right to review, edit, refuse, remove materials posted and terminate your access, without notice at its sole discretion.
+
+SDO reserves the right to disclose any information as SDO deems necessary to satisfy any applicable law, regulation, legal process or governmental request.
+
+SDO does not control or endorse the content, messages or information found in any communication services. SDO specifically disclaims any liability and any actions resulting from your participation in any communication services. Managers and hosts are not authorized SDO spokespersons, and their views do not necessarily reflect those of SDO.
+
+
+18. Materials provided or posted to SDO Platform
+SDO does not claim ownership of the materials you provide (including feedback and suggestions) post, upload, or input. By posting, uploading, you are granting SDO permission to use your submission, without limitation, the license rights to: copy, distribute, publicly display, edit, translate your submission; to publish your name. No compensation will be paid with for the use of your submission. In addition to the warranty and representation set forth above, by posting a submission, you warrant and represent that you are the copyright owner.
+
+
+19. Notices
+Any notifications, questions related to SDO's Platform properties, spam/privacy issues, Platform related technical queries should be sent to the below address only with your contact details and detailed query.
