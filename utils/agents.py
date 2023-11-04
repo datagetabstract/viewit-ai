@@ -50,7 +50,7 @@ def df_prefix(filename):
     return load_data(filename), prefix_map[filename]
 
 
-@st.cache_resource(show_spinner=False)
+# @st.cache_resource(show_spinner=False)
 def load_rag(filepath, llm):
     loader = TextLoader(
     filepath, 'utf-8', autodetect_encoding=True
