@@ -118,7 +118,7 @@ def create_pandas_dataframe_agent(
         "import pandas and run `pandas.set_option('display.max_columns',None)` to make sure it does not look abbreviated before using it in your answer."
     )
 
-    rag_agent = load_rag('data/legal.txt', ChatOpenAI(verbose=True, model='gpt-3.5-turbo', temperature=0.2))
+    rag_agent = load_rag('data/legal.txt', ChatOpenAI(verbose=True, model='gpt-3.5-turbo', temperature=0.2, openai_api_key=st.secrets["OPENAI_API_KEY"]))
     
     rag_tool = Tool(
         name="Legal Agent",
