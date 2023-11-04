@@ -1,3 +1,4 @@
+streamlit==1.27.2
 chromadb==0.4.15
 googlemaps
 langchain
@@ -9,8 +10,6 @@ proto-plus==1.22.2
 protobuf==3.20.0
 pydantic
 pyowm
-sqlite==3.35.0
-streamlit==1.27.2
 streamlit-authenticator
 streamlit-feedback==0.1.2
 tabulate
